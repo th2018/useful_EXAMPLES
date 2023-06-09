@@ -1,0 +1,29 @@
+---
+title: "usefule_github"
+author: "Tao"
+date: "`r Sys.Date()`"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r}
+library(knitr)
+
+df<-data.frame(example=c("LSTM"
+                         ,"CNN"),link=c("https://github.com/mhpi/hydroDL"
+                                     ,"https://github.com/hankui/cnn_Landsat_time_series_classification_v1-R")
+               ,language=c("Python","R"))
+kable( df)
+
+
+```
+
+
+
+
+
+
+
+
+
