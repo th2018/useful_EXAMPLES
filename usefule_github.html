@@ -13,7 +13,7 @@
 
 <meta name="date" content="2023-06-09" />
 
-<title>usefule_github</title>
+<title>useful_github</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -350,7 +350,7 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">usefule_github</h1>
+<h1 class="title toc-ignore">useful_github</h1>
 <h4 class="author">Tao</h4>
 <h4 class="date">2023-06-09</h4>
 
@@ -359,20 +359,22 @@ display: none;
 
 <pre class="r"><code>library(knitr)</code></pre>
 <pre><code>## Warning: package &#39;knitr&#39; was built under R version 4.2.3</code></pre>
-<pre class="r"><code>df&lt;-data.frame(example=c(&quot;LSTM&quot;
-                         ,&quot;CNN&quot;),link=c(&quot;https://github.com/mhpi/hydroDL&quot;
-                                     ,&quot;https://github.com/hankui/cnn_Landsat_time_series_classification_v1-R&quot;)
-               ,language=c(&quot;Python&quot;,&quot;R&quot;))
+<pre class="r"><code>df&lt;-data.frame(Model=c(&quot;LSTM&quot;
+                         ,&quot;CNN&quot;
+                         ,&quot;segmentation_models&quot;),link=c(&quot;https://github.com/mhpi/hydroDL&quot;
+                                     ,&quot;https://github.com/hankui/cnn_Landsat_time_series_classification_v1-R&quot;
+                                     ,&quot;https://github.com/ehsanraei/Irrigation/tree/main&quot;)
+               ,language=c(&quot;Python&quot;,&quot;R&quot;,&quot;Python&quot;))
 kable( df)</code></pre>
 <table>
 <colgroup>
+<col width="20%" />
+<col width="70%" />
 <col width="9%" />
-<col width="80%" />
-<col width="10%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">example</th>
+<th align="left">Model</th>
 <th align="left">link</th>
 <th align="left">language</th>
 </tr>
@@ -387,6 +389,11 @@ kable( df)</code></pre>
 <td align="left">CNN</td>
 <td align="left"><a href="https://github.com/hankui/cnn_Landsat_time_series_classification_v1-R" class="uri">https://github.com/hankui/cnn_Landsat_time_series_classification_v1-R</a></td>
 <td align="left">R</td>
+</tr>
+<tr class="odd">
+<td align="left">segmentation_models</td>
+<td align="left"><a href="https://github.com/ehsanraei/Irrigation/tree/main" class="uri">https://github.com/ehsanraei/Irrigation/tree/main</a></td>
+<td align="left">Python</td>
 </tr>
 </tbody>
 </table>

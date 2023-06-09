@@ -1,5 +1,5 @@
 ---
-title: "usefule_github"
+title: "useful_github"
 author: "Tao"
 date: "`r Sys.Date()`"
 output:
@@ -10,10 +10,12 @@ output:
 ```{r}
 library(knitr)
 
-df<-data.frame(example=c("LSTM"
-                         ,"CNN"),link=c("https://github.com/mhpi/hydroDL"
-                                     ,"https://github.com/hankui/cnn_Landsat_time_series_classification_v1-R")
-               ,language=c("Python","R"))
+df<-data.frame(Model=c("LSTM"
+                         ,"CNN"
+                         ,"segmentation_models"),link=c("https://github.com/mhpi/hydroDL"
+                                     ,"https://github.com/hankui/cnn_Landsat_time_series_classification_v1-R"
+                                     ,"https://github.com/ehsanraei/Irrigation/tree/main")
+               ,language=c("Python","R","Python"))
 kable( df)
 
 
